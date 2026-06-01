@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Painel{% endblock %}
+{% block content %}
+<div class="summary">
+  <h2>Acesso autorizado</h2>
+  <p>Bem-vindo, {{ user['username'] }}.</p>
+  <p><strong>E-mail:</strong> {{ user['email'] }}</p>
+  <p><strong>Falhas acumuladas:</strong> {{ user['failed_attempts'] }}</p>
+</div>
+<form method="post" action="{{ url_for('demo_reset') }}" class="inline-form">
+  <button type="submit" class="secondary">Redefinir bloqueio de demonstração</button>
+</form>
+<p class="switch"><a href="{{ url_for('logout') }}">Sair</a></p>
+{% endblock %}

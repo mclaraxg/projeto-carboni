@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Cadastro{% endblock %}
+{% block content %}
+<form method="post" class="form">
+  <label>
+    Nome de usuário
+    <input type="text" name="username" autocomplete="name" required>
+  </label>
+  <label>
+    Login / e-mail
+    <input type="email" name="email" autocomplete="email" required>
+  </label>
+  <label>
+    Senha
+    <input type="password" name="password" autocomplete="new-password" required>
+  </label>
+  <p class="hint">{{ policy }}</p>
+  <button type="submit">Cadastrar</button>
+</form>
+<p class="switch">Já possui conta? <a href="{{ url_for('login') }}">Entrar</a></p>
+{% endblock %}

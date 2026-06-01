@@ -1,0 +1,71 @@
+2026-05-29 18:47:53,086 INFO Cadastro realizado para o usuário Alice (alice@example.com)
+2026-05-29 18:47:53,224 INFO Login autorizado para Alice (alice@example.com)
+2026-05-29 18:47:53,384 WARNING Falha de login para Alice (alice@example.com)
+2026-05-29 18:47:53,520 WARNING Falha de login para Alice (alice@example.com)
+2026-05-29 18:47:53,684 WARNING Usuário Alice (alice@example.com) bloqueado por excesso de tentativas
+2026-05-29 18:47:53,690 WARNING Login bloqueado para o usuário Alice (alice@example.com)
+2026-05-29 18:48:29,394 INFO Cadastro realizado para o usuário Alice (alice@example.com)
+2026-05-29 18:48:29,557 INFO Login autorizado para Alice (alice@example.com)
+2026-05-29 18:48:29,724 WARNING Falha de login para Alice (alice@example.com)
+2026-05-29 18:48:29,904 WARNING Falha de login para Alice (alice@example.com)
+2026-05-29 18:48:30,170 WARNING Usuário Alice (alice@example.com) bloqueado por excesso de tentativas
+2026-05-29 18:48:30,178 WARNING Login bloqueado para o usuário Alice (alice@example.com)
+2026-05-29 18:48:30,734 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-29 18:48:30,735 INFO [33mPress CTRL+C to quit[0m
+2026-05-29 18:48:30,737 INFO  * Restarting with stat
+2026-05-29 18:48:31,144 WARNING  * Debugger is active!
+2026-05-29 18:48:31,149 INFO  * Debugger PIN: 485-614-945
+2026-05-29 18:48:36,237 INFO  * Detected change in 'C:\\Users\\xgmar\\OneDrive\\Documentos\\SENAC\\paulo jose\\app.py', reloading
+2026-05-29 18:48:36,292 INFO  * Restarting with stat
+2026-05-29 18:48:36,891 WARNING  * Debugger is active!
+2026-05-29 18:48:36,902 INFO  * Debugger PIN: 485-614-945
+2026-05-29 18:48:40,091 INFO Cadastro realizado para o usuário Alice (alice@example.com)
+2026-05-29 18:48:40,259 INFO Login autorizado para Alice (alice@example.com)
+2026-05-29 18:48:40,408 WARNING Falha de login para Alice (alice@example.com)
+2026-05-29 18:48:40,554 WARNING Falha de login para Alice (alice@example.com)
+2026-05-29 18:48:40,690 WARNING Usuário Alice (alice@example.com) bloqueado por excesso de tentativas
+2026-05-29 18:48:40,715 WARNING Login bloqueado para o usuário Alice (alice@example.com)
+2026-05-29 18:48:45,591 INFO 127.0.0.1 - - [29/May/2026 18:48:45] "[32mGET / HTTP/1.1[0m" 302 -
+2026-05-29 18:48:45,622 INFO 127.0.0.1 - - [29/May/2026 18:48:45] "GET /login HTTP/1.1" 200 -
+2026-05-29 18:48:45,736 INFO 127.0.0.1 - - [29/May/2026 18:48:45] "GET /static/style.css HTTP/1.1" 200 -
+2026-05-29 19:38:28,193 WARNING Falha de login para e-mail desconhecido: ror23232435@protonmail.com
+2026-05-29 19:38:28,195 INFO 127.0.0.1 - - [29/May/2026 19:38:28] "POST /login HTTP/1.1" 200 -
+2026-05-29 19:38:28,240 INFO 127.0.0.1 - - [29/May/2026 19:38:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-29 19:38:33,668 INFO 127.0.0.1 - - [29/May/2026 19:38:33] "GET /register HTTP/1.1" 200 -
+2026-05-29 19:38:33,680 INFO 127.0.0.1 - - [29/May/2026 19:38:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-29 19:39:21,185 INFO 127.0.0.1 - - [29/May/2026 19:39:21] "POST /register HTTP/1.1" 200 -
+2026-05-29 19:39:21,229 INFO 127.0.0.1 - - [29/May/2026 19:39:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-29 19:46:04,455 INFO Cadastro realizado para o usuário jorginho (jorginho@protonmail.com)
+2026-05-29 19:46:04,461 INFO 127.0.0.1 - - [29/May/2026 19:46:04] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-05-29 19:46:04,487 INFO 127.0.0.1 - - [29/May/2026 19:46:04] "GET /login HTTP/1.1" 200 -
+2026-05-29 19:46:04,525 INFO 127.0.0.1 - - [29/May/2026 19:46:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-29 19:46:30,734 INFO Login autorizado para jorginho (jorginho@protonmail.com)
+2026-05-29 19:46:30,736 INFO 127.0.0.1 - - [29/May/2026 19:46:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-05-29 19:46:30,750 INFO 127.0.0.1 - - [29/May/2026 19:46:30] "GET /dashboard HTTP/1.1" 200 -
+2026-05-29 19:46:30,778 INFO 127.0.0.1 - - [29/May/2026 19:46:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-29 19:47:25,734 INFO 127.0.0.1 - - [29/May/2026 19:47:25] "[32mPOST /demo-reset HTTP/1.1[0m" 302 -
+2026-05-29 19:47:25,765 INFO 127.0.0.1 - - [29/May/2026 19:47:25] "GET /dashboard HTTP/1.1" 200 -
+2026-05-29 19:47:25,815 INFO 127.0.0.1 - - [29/May/2026 19:47:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-29 19:47:33,311 INFO 127.0.0.1 - - [29/May/2026 19:47:33] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-05-29 19:47:33,323 INFO 127.0.0.1 - - [29/May/2026 19:47:33] "GET /login HTTP/1.1" 200 -
+2026-05-29 19:47:33,357 INFO 127.0.0.1 - - [29/May/2026 19:47:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-29 19:47:52,227 WARNING Falha de login para e-mail desconhecido: jorge@exemplo.com
+2026-05-29 19:47:52,228 INFO 127.0.0.1 - - [29/May/2026 19:47:52] "POST /login HTTP/1.1" 200 -
+2026-05-29 19:47:52,240 INFO 127.0.0.1 - - [29/May/2026 19:47:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-29 19:47:52,251 INFO 127.0.0.1 - - [29/May/2026 19:47:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-29 19:47:59,770 WARNING Falha de login para e-mail desconhecido: jorge@exemplo.com
+2026-05-29 19:47:59,772 INFO 127.0.0.1 - - [29/May/2026 19:47:59] "POST /login HTTP/1.1" 200 -
+2026-05-29 19:47:59,812 INFO 127.0.0.1 - - [29/May/2026 19:47:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-29 19:48:06,747 WARNING Falha de login para e-mail desconhecido: jorgejorge@exemplo.com
+2026-05-29 19:48:06,753 INFO 127.0.0.1 - - [29/May/2026 19:48:06] "POST /login HTTP/1.1" 200 -
+2026-05-29 19:48:06,775 INFO 127.0.0.1 - - [29/May/2026 19:48:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-29 19:48:20,214 WARNING Falha de login para e-mail desconhecido: aaaaaalakfjorge@exemplo.com
+2026-05-29 19:48:20,215 INFO 127.0.0.1 - - [29/May/2026 19:48:20] "POST /login HTTP/1.1" 200 -
+2026-05-29 19:48:20,240 INFO 127.0.0.1 - - [29/May/2026 19:48:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-29 19:48:29,397 WARNING Falha de login para e-mail desconhecido: jorge@exemplo.com
+2026-05-29 19:48:29,398 INFO 127.0.0.1 - - [29/May/2026 19:48:29] "POST /login HTTP/1.1" 200 -
+2026-05-29 19:48:29,430 INFO 127.0.0.1 - - [29/May/2026 19:48:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-29 19:48:56,098 WARNING Falha de login para e-mail desconhecido: jorge@exemplo.com
+2026-05-29 19:48:56,099 INFO 127.0.0.1 - - [29/May/2026 19:48:56] "POST /login HTTP/1.1" 200 -
+2026-05-29 19:48:56,123 INFO 127.0.0.1 - - [29/May/2026 19:48:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
